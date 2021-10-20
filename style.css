@@ -83,7 +83,7 @@ canvas {
 .hobbies{
   display: grid; 
   /* grid-template-columns: subgrid;  */
-  grid-template-rows: repeat(4,1fr);
+  grid-template-rows: repeat(4);
   }
   .hobbies h3{
   grid-column: span 3;
@@ -96,25 +96,26 @@ canvas {
     margin-right: auto;
     width: 50%;
     height: auto;
+    margin: auto;
   }
   .hobbies p{
     grid-row: 4;
     margin: 0;
-    padding: 5px;
+    padding: 10px;
   }
   .hobbies div{
     display: block;
+    margin: auto;
   }
   
 .contact{
   display: grid; 
   grid-template-columns: repeat(2,1fr); 
   grid-template-rows: repeat(4,1fr);
-  margin-bottom: 30%;
+  margin-bottom: 20%;
 }
   .contact h2{
     grid-column: span 2;
-    margin: auto;
   }
 
   .contact p{
@@ -168,4 +169,25 @@ canvas {
 .fa-google {
   background: #dd4b39;
   color: white;
+}
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
 }
